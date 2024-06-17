@@ -52,6 +52,27 @@ Das Spiel kann auch mit dem Makey Makey-Kit gespielt werden, um eine interaktive
    - Stelle sicher, dass alle Verbindungen fest und korrekt sind.
    - Starte das Spiel wie gewohnt und nutze die Makey Makey-Tasten, um die verschiedenen FizzBuzz-Antworten zu geben und das Spiel zu steuern.
 
+### Zusammenfassung der Fragebogen
+
+**Allgemeine Information**
+Alter der Tester: 17/16/18
+Testerfahrung: 1x Anfänger, 2x Fortgeschritten
+**Benutzerfreundlichkeit**
+2/3 Befragten fanden das Spiel intuitiv, einer fands gab Mittel an
+3/3 Befragten gaben an dass die Anweisungen im Spiel sehr hilfreich waren
+**Spielerlebnis**
+Eine Person gab an dass Sie dass Spiel unterhaltsam fand, einer fand es Mittel und eine fand es langweilig
+3/3 Befragten fanden dass Spiel einfach
+2/3 Befragten gaben an dass Sie nicht motiviert wären das SPiel wieder zu spielen, einer gab Mittel an
+**Fehlerbehandlung und Feedback**
+Keiner der Tester haben während des Spielens Fehler oder Abstürze erlebt und konnten somit nicht die folgenden zwei Fragen beantworten
+**Verbesserungen und Vorschläge**
+_Hat gefallen:_
+-Tipps zu den Teilbarkeitsregeln, Anleitung am Anfang
+_Hat nicht gefallen:_
+-zu wenig Design, man hätte andere Schriftart verwenden können/sollen
+
+
 ```mermaid
 
      classDiagram
