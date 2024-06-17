@@ -91,3 +91,7 @@ Das Spiel kann auch mit dem Makey Makey-Kit gespielt werden, um eine interaktive
     GameOverManager --> StartSceneManager
 
 ```
+
+# Links
+[Mermaid Chart](https://www.mermaidchart.com/app/projects/07313d37-0cf6-4d69-bc10-89d92dbfb2b2/diagrams/374436e4-7712-40f0-a3d6-705cfcb01354/version/v0.1/edit "Mermaid Chart")
+[Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet "Markdown Cheatsheet")
