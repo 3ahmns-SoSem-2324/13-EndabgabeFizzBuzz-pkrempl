@@ -48,7 +48,46 @@ Das Spiel kann auch mit dem Makey Makey-Kit gespielt werden, um eine interaktive
      - **Pfeiltaste nach rechts**: Klemme an eine leitfähige Oberfläche, die als "FizzBuzz"-Taste dient.
      - **Pfeiltaste nach links**: Klemme an eine leitfähige Oberfläche, die als "Kein FizzBuzz"-Taste dient.
      - **Leertaste**: Klemme an eine leitfähige Oberfläche, die verwendet wird, um nach einer falschen Antwort fortzufahren.
-
 3. **Spielstart mit Makey Makey**
    - Stelle sicher, dass alle Verbindungen fest und korrekt sind.
    - Starte das Spiel wie gewohnt und nutze die Makey Makey-Tasten, um die verschiedenen FizzBuzz-Antworten zu geben und das Spiel zu steuern.
+
+```mermaid
+
+     classDiagram
+    class StartSceneManager {
+        +Button startButton
+        +void Start()
+        +void StartGame()
+    }
+
+    class FizzBuzzInteractiveManager {
+        +TextMeshProUGUI numberText
+        +TextMeshProUGUI fizzText
+        +TextMeshProUGUI hintText
+        +TextMeshProUGUI errorCountText
+        +Image panelImage
+        +int randomNumber
+        +bool correctKeyPressed
+        +bool wrongKeyPressed
+        +float delayTime
+        +int errorCount
+        +void Start()
+        +void Update()
+        +void CheckFizzBuzz(string choice)
+        +IEnumerator GenerateRandomNumberWithDelay()
+        +void GenerateRandomNumber()
+        +string GetFizzBuzz(int number)
+    }
+
+    class GameOverManager {
+        +Button restartButton
+        +void Start()
+        +void RestartGame()
+    }
+
+    StartSceneManager --> FizzBuzzInteractiveManager
+    FizzBuzzInteractiveManager --> GameOverManager
+    GameOverManager --> StartSceneManager
+
+```
